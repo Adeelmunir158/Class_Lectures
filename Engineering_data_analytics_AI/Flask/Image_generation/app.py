@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__)
 
 # Load your OpenAI API key (hardcoded for testing purposes)
-# openai_api_key = "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"
+# openai_api_key = "write-your-openai-api-key-here"
 
 def generate_image(prompt):
     # client = openai.OpenAI(api_key=openai_api_key)
