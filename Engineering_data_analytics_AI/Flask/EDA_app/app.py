@@ -1,3 +1,4 @@
+# import libraries
 from flask import Flask, render_template
 import pandas as pd
 import numpy as np
@@ -13,6 +14,8 @@ app = Flask(__name__)
 def load_data():
     df = sns.load_dataset('iris')
     return df
+
+# define the function to plot the data
 def plot(df):
     # Create a figure for the plots
     fig, axs = plt.subplots(2, 2, figsize=(12, 12))
