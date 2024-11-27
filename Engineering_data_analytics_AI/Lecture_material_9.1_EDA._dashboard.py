@@ -112,7 +112,7 @@ def open_browser():
 
 
 # Run the app
-if __name__ == '__main__':
-     # Start the browser in a separate thread
-    threading.Timer(1, open_browser).start()
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#      # Start the browser in a separate thread
+#     threading.Timer(1, open_browser).start()
+#     app.run_server(debug=True)
