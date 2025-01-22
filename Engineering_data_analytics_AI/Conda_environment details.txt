@@ -1,0 +1,15 @@
+
+To use PyCaret in a conda environment, follow these steps:
+
+Check the existing environemnts
+conda env list 
+
+Create a new conda environment
+conda create --name pycaret_env python=3.9 -y
+
+ Activate the environment
+conda activate pycaret_env
+
+
+ Install pycaret and other required libraries
+pip install pycaret pandas numpy matplotlib seaborn ipykernel mlflow shap
