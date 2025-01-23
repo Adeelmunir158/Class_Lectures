@@ -15990,3 +15990,49 @@ Alternately, you can install this by running `pip install pycaret[models]`
                 ('actual_estimator',
                  BayesianRidge(alpha_1=0.01, alpha_2=1e-07, lambda_1=0.05,
                                lambda_2=0.2))])
+2025-01-23 11:13:44,050:INFO:finalize_model() successfully completed......................................
+2025-01-23 11:13:46,122:INFO:Initializing predict_model()
+2025-01-23 11:13:46,122:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000224FFC65910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_bill', 'sex', 'smoker',
+                                             'day', 'time', 'size'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 BayesianRidge(alpha_1=0.01, alpha_2=1e-07, lambda_1=0.05,
+                               lambda_2=0.2))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000224812CF940>)
+2025-01-23 11:13:46,122:INFO:Checking exceptions
+2025-01-23 11:13:46,123:INFO:Preloading libraries
+2025-01-23 11:13:46,130:INFO:Set up data.
+2025-01-23 11:13:46,144:INFO:Set up index.
+2025-01-23 11:13:46,190:WARNING:c:\Users\adeel\miniconda3\envs\pycaret_env\lib\site-packages\sklearn\metrics\_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+2025-01-23 11:16:02,710:INFO:Initializing interpret_model()
+2025-01-23 11:16:02,710:INFO:interpret_model(estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_bill', 'sex', 'smoker',
+                                             'day', 'time', 'size'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 BayesianRidge(alpha_1=0.01, alpha_2=1e-07, lambda_1=0.05,
+                               lambda_2=0.2))]), use_train_data=False, X_new_sample=None, y_new_sample=None, feature=None, kwargs={}, observation=None, plot=summary, save=False, self=<pycaret.regression.oop.RegressionExperiment object at 0x00000224FFC65910>)
+2025-01-23 11:16:02,710:INFO:Checking exceptions
+2025-01-23 11:16:02,710:INFO:Soft dependency imported: shap: 0.46.0
