@@ -18,5 +18,5 @@ pip install pycaret pandas numpy matplotlib seaborn ipykernel mlflow shap
 check the list of packages in any environment
 conda list
 
-To remove any package
-conda remove library_name
+To remove any environment
+conda env remove pycaret_env
