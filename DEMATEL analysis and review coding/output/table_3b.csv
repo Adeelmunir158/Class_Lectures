@@ -1,0 +1,16 @@
+Factor,Mechanism,All studies,High,Moderate,Low,Support (high only; pre-specified),High + Moderate,Support (sensitivity: high + moderate),% High + Moderate
+F1,Transparency,22,1,1,20,Weak,2,Partial,9.1
+F2,Traceability,11,0,1,10,Weak,1,Weak,9.1
+F3,Data integrity,3,0,0,3,Weak,0,Weak,0.0
+F4,Information sharing,11,2,0,9,Partial,2,Partial,18.2
+F5,Trust,15,2,1,12,Partial,3,Partial,20.0
+F6,Risk sensing,6,0,1,5,Weak,1,Weak,16.7
+F7,Predictive capability,6,3,1,2,Partial,4,Partial,66.7
+F8,Analytics capability,89,13,5,71,Robust,18,Robust,20.2
+F9,Supply chain visibility,19,4,2,13,Partial,6,Robust,31.6
+F10,Decision intelligence,7,1,0,6,Weak,1,Weak,14.3
+F11,Collaborative decision-making,25,2,1,22,Partial,3,Partial,12.0
+F12,Agile response,64,7,1,56,Robust,8,Robust,12.5
+F13,Recovery capability,24,4,1,19,Partial,5,Robust,20.8
+F14,Continuity planning,13,1,0,12,Weak,1,Weak,7.7
+F15,Organizational learning,14,0,1,13,Weak,1,Weak,7.1
