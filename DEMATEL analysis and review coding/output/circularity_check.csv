@@ -1,0 +1,16 @@
+Factor,Mechanism,Shares a word with search/eligibility terms,Studies (all),Studies in resilience-titled subset,% in subset,High-quality studies in subset
+F1,Transparency,No,22,13,59.1,1
+F2,Traceability,Yes,11,6,54.5,0
+F3,Data integrity,No,3,3,100.0,0
+F4,Information sharing,No,11,6,54.5,2
+F5,Trust,No,15,8,53.3,1
+F6,Risk sensing,No,6,6,100.0,0
+F7,Predictive capability,No,6,4,66.7,2
+F8,Analytics capability,No,89,64,71.9,10
+F9,Supply chain visibility,Yes,19,9,47.4,2
+F10,Decision intelligence,No,7,4,57.1,1
+F11,Collaborative decision-making,Yes,25,17,68.0,1
+F12,Agile response,Yes,64,34,53.1,3
+F13,Recovery capability,Yes,24,24,100.0,4
+F14,Continuity planning,Yes,13,10,76.9,1
+F15,Organizational learning,No,14,9,64.3,0
